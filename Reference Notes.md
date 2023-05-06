@@ -127,3 +127,9 @@ OR
 
 ### 21.dateadd
 Syntax: DATEADD(Dates,NumberOfIntervals,Interval)
+
+Ex: DATEADD(ColumnName,-1,Month)
+
+NumberOfInterval: -1 Means before one year
+
+Interval: Day,Month,Year
