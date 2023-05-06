@@ -133,3 +133,25 @@ Ex: DATEADD(ColumnName,-1,Month)
 NumberOfInterval: -1 Means before one year
 
 Interval: Day,Month,Year
+
+### 22.Scalar Function:
+
+- sum,sumx,lastdate,calculate,rankx
+
+### 23.Tabular Functions:
+
+- Calculatetable,summarize,all,filter
+
+### 24.Other Function:
+
+- CrossFilter,UserRelationShip
+
+### 25.Context Transition:
+
+- TopN(No_Value,Table,[orderby_Expression])
+
+- Values(TableName or ColumnName) 
+
+(notes:It Return Unique Values & Remove duplicates)
+
+- Ex: Top 5 Product = TopN(5,VALUES(columnName),CALCULATE(SUM(ColumnName)),DESC
