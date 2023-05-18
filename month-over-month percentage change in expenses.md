@@ -1,5 +1,5 @@
 ### The formula you provided is a DAX (Data Analysis Expressions) formula used in Power BI for calculating the month-over-month percentage change in expenses. Here's a breakdown of the formula:
-
+#### This Formula also available in power BI
 ```
 Expense MoM% =
 IF(
